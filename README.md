@@ -12,7 +12,7 @@ By default, Thormang3 simulator in gazebo does not have the gripper collision im
 For that, the [thormang3.structure.arm.xacro description](https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Common/blob/master/thormang3_description/urdf/thormang3.structure.arm.xacro) was modified and the collision implemented. The change effect can be see in the image below.
 
 
-![Gripper modification](/gripper.png)
+![Gripper modification](/grip.png)
 
 
 ## Fixed Sequenced Pose mode

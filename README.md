@@ -35,17 +35,17 @@ The idea is to control Thormang3 arm with your arm. For this was used the Myo ar
 ## How to run
 Open the Thormang3 gazebo in a terminal by executing the following command:
 
-*roslaunch thormang3_gazebo robotis_world.launch* 
+***roslaunch thormang3_gazebo robotis_world.launch*** 
 
 
 In a new terminal window, execute the Thormang3 Manager:
 
-*roslaunch thormang3_manager thormang3_manager.launch* 
+***roslaunch thormang3_manager thormang3_manager.launch*** 
 
 
 After Thormang3 is running, go to the PyoConnect folder and execute the PyoManager if you want to teleoperate the arm. Be assure Myo is plugged in and adjusted to your arm.
 
-*python PyoManager.pyc*
+***python PyoManager.pyc***
 
 
 For the last, execute the code by invoking python **main.py** in a new terminal window.

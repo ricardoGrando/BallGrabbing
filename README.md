@@ -12,6 +12,8 @@ The thormang's world is empty after installation. Then three gazebo default obaj
 
 ## Fixed Sequenced Pose mode
 
+![Fixed Sequenced Pose experiment](/fixed.gif)
+
 ## Teleoperation mode
 
 

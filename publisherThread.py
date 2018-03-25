@@ -9,10 +9,10 @@ import threading
 
 """
     Description:    Thread that publish a value to a ros topic
-                    Receives a publisher and a mutex that is used to sincronize with all others publishers threads and the main thread
+                    Receives a publisher and a mutex that is used to Synchronise with all others publishers threads and the main thread
                     With the mutex, a publisher thread does not run at same time with the main thread or other publisher thread
                     The main thread allow a publisher thread to run by setting the run flag
-                    This sincronization is used for correctly pose generation
+                    This synchronization is used for correctly pose generation
 """
 
 class publisherThread(threading.Thread):

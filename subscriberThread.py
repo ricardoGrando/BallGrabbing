@@ -10,7 +10,7 @@ import threading
 
 """
     Description:    Subscribe the thormang topic value and store in disk as txt numberSamples times
-                    Receives a mutex that is used to sincronize with all others publishers and subscribers threads and the main thread
+                    Receives a mutex that is used to synchronize with all others publishers and subscribers threads and the main thread
                     With the mutex, a subscriber thread does not run at same time with the main thread or other subscriber and publisher thread
                     The main thread allow a subscriber thread to run by setting the run flag                    
 """

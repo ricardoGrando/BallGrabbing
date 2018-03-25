@@ -16,12 +16,12 @@ from topics import *
 from myoThread import *
 
 """
-    Description:    Create the publishers and subscribers threads. Sincronise all of them with a mutex to avoid have two of them running
+    Description:    Create the publishers and subscribers threads. Synchronise all of them with a mutex to avoid have two of them running
                     at same time. It can work by two mods: Fixed posed mode or Myo Mode. The fixed pose mod set a hand-defined
                     sequence for the angles. The sequence is the movement1 in topics.py. The Myo mode uses Myo Armband to control
                     the arm. 
                     For any topic listed in topics.py a publisher and a subscriber thread is created. The main thread receives values
-                    from Myo Thread. Those values are send to the correctly publisher. A time delay of 1.5 secs is used 
+                    from Myo Thread. Those values are sent to the correctly publisher. A time delay of 1.5 secs is used 
                     for the fixed sequence mod.
 """
 

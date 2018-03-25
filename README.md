@@ -23,11 +23,7 @@ This way of movement generation uses a manually defined sequence of angles to pu
 
 
 ## Teleoperation mode
-The idea is to control Thormang3 arm with your arm. For this was used the Myo armband. The [Myo armband interface](http://www.fernandocosentino.net/pyoconnect/) for linux was used to read the angles from. The values of Roll, Pitch, Yaw, GyroX and WaveIn/Waveout were read and published to a ROS topic MyoInterface and sent to Thormang3's arm topics. The image below show to result. 
-
-
-![Fixed Sequenced Pose experiment](/fixed.gif)
-
+The idea is to control Thormang3 arm with your arm. For this was used the Myo armband. The [Myo armband interface](http://www.fernandocosentino.net/pyoconnect/) for linux was used to read the angles from. The values of *Roll*, *Pitch*, *Yaw*, *GyroX* and *WaveIn*/*Waveout* were read and published to a ROS topic *MyoInterface* and sent to Thormang3's arm topics.
 
 **Obs: Only the absolute read Myo angles were used. It may not work properly since no cinematic description was used. Also, be aware that Myo adapts differently in each person arm.**
 

@@ -44,4 +44,4 @@ After Thormang3 is running, go to the PyoConnect folder and execute the PyoManag
 ***python PyoManager.pyc***
 
 
-For the last, execute the code by invoking python **main.py** in a new terminal window.
+For the last, execute the code by invoking python **main.py** in a new terminal window. You can set the mode in the main.py constructor(True=Teleoperation, False=Fixed)

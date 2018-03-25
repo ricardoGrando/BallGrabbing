@@ -3,7 +3,7 @@ A first experiment using [Thormang3 Simulator in Gazebo](http://wiki.ros.org/ROB
 
 
 ## Thormang3's world modifications
-The Thormang3's world is empty after installation. Then three gazebo default objects were added to the world: A ball, a bowl and a table. The objects position were manually set. For this experiment, Thormang3 was also fixed in the world.
+The Thormang3's world is empty after installation. Then three gazebo default objects were added to the [world](https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Common/blob/master/thormang3_gazebo/worlds/empty.world): A ball, a bowl and a table. The objects position were manually set in the [created world](/world/pimped.world). For this experiment, Thormang3 was also fixed in the world.
 
 ![Gripper modification](/world.png)
 

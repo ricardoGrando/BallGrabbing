@@ -1,10 +1,11 @@
-# Ball Grabbing Experiment on Thormang Simulator
+# Ball Grabbing Experiment on Thormang3 Simulator
 A first experiment using [Thormang3 Simulator in Gazebo](http://wiki.ros.org/ROBOTIS-THORMANG3). The experiment idea is make Thormang3 grab a ball and put it in a bowl. This action was reproduced by two different ways: by Teleoperation and by Fixed Sequenced Pose. To achieve it, a few modifications and implementations on Thormang3 files were made.
 
 
 ## Thormang3's world modifications
 The Thormang3's world is empty after installation. Then three gazebo default objects were added to the world: A ball, a bowl and a table. The objects position were manually set. For this experiment, Thormang3 was also fixed in the world.
 
+![Gripper modification](/world.png)
 
 ## Gripper Implementation
 By default, Thormang3 simulator in gazebo does not have the gripper collision implemented, which is necessary for the experiment.

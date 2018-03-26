@@ -5,21 +5,21 @@ A first experiment using [Thormang3 Simulator in Gazebo](http://wiki.ros.org/ROB
 ## Thormang3's world modifications
 The Thormang3's world is empty after installation. Then three gazebo default objects were added to the [world](https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Common/blob/master/thormang3_gazebo/worlds/empty.world): A ball, a bowl and a table. The objects position were manually set in the [created world](/world/pimped.world). For this experiment, Thormang3 was also fixed in the world.
 
-![Gripper modification](/world.png)
+![Gripper modification](/git_data/world.png)
 
 ## Gripper Implementation
 By default, Thormang3 simulator in gazebo does not have the gripper collision implemented, which is necessary for the experiment.
 For that, the [thormang3.structure.arm.xacro description](https://github.com/ROBOTIS-GIT/ROBOTIS-THORMANG-Common/blob/master/thormang3_description/urdf/thormang3.structure.arm.xacro) was modified and the collision implemented. The change effect can be see in the image below.
 
 
-![Gripper modification](/grip.png)
+![Gripper modification](/git_data/grip.png)
 
 
 ## Fixed Sequenced Pose mode
 This way of movement generation uses a manually defined sequence of angles to publish in each topic. Every 1.5 secs an angle value is published in each topic. For this grab ball movement, a sequence of seven angles were sent to each topic. This hand-defined angles in topics.py is defined as a matrix, where the columns are for the arm pose in every time step. The result of this experiment can be seen in the image below.
 
 
-![Fixed Sequenced Pose experiment](/fixed.gif)
+![Fixed Sequenced Pose experiment](/git_data/fixed.gif)
 
 
 ## Teleoperation mode
